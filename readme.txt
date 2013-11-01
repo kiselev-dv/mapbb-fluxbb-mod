@@ -88,7 +88,7 @@ header.php
 <script language="Javascript" type="text/javascript">
 <!--
 var mapBBcode = new MapBBCode({
-    libPath: 'include/mapbb/',
+    windowPath: 'include/mapbb/',
     layers: 'OpenStreetMap',
     defaultZoom: 2,
     defaultPosition: [22, 11],
