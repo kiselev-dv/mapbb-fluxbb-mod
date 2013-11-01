@@ -4,7 +4,7 @@
 // Some info about your mod.
 $mod_title      = 'MapBB';
 $mod_version    = '1.0';
-$release_date   = 'YYYY-MM-DD';
+$release_date   = '2013-11-1';
 $author         = 'dkiselev';
 $author_email   = 'dmitry.v.kiselev@gmail.com';
 
