@@ -152,5 +152,64 @@ function parse_mapbb($text)
 
 
 #
-#---------[ 10. SAVE/UPLOAD ]-------------------------------------------------
+#---------[ 10. IF EasyBBCode mode Installed ]-----------------------------
+#
+
+#
+#---------[ 11. OPEN ]---------------------------------------------------------
+#
+
+mod_easy_bbcode.php
+
+#
+#---------[ 12. FIND (line: 12) ]--------------------------------------------
+#
+
+							function insert_text(open, close)
+							{
+								if (document.forms['<?php echo $bbcode_form ?>'])
+									msgfield = document.forms['<?php echo $bbcode_form ?>']['<?php echo $bbcode_field ?>'];
+								else if (document.getElementsByName('<?php echo $bbcode_field ?>'))
+									msgfield = document.getElementsByName('<?php echo $bbcode_field ?>')[0];
+								else
+									document.all.req_message;
+							
+								//IE Support
+#
+#---------[ 13. REPLACE WITH ]-------------------------------------------------
+#
+
+														function getEditField()
+							{
+								if (document.forms['<?php echo $bbcode_form ?>'])
+									return document.forms['<?php echo $bbcode_form ?>']['<?php echo $bbcode_field ?>'];
+								else if (document.getElementsByName('<?php echo $bbcode_field ?>'))
+									return document.getElementsByName('<?php echo $bbcode_field ?>')[0];
+								else
+									return document.all.req_message;
+							}
+							function insert_text(open, close)
+							{
+								msgfield = getEditField();
+								
+								// IE support
+
+#
+#---------[ 14. FIND (line: 12) ]--------------------------------------------
+#
+
+							<input type="button" value="QUOTE" name="QUOTE" onclick="insert_text('[quote]','[/quote]')" />
+
+#
+#---------[ 15. AFTER, ADD ]--------------------------------------------
+#
+
+							<input type="button" value="MAP" name="MAP" onclick="mapBBcode.editorWindow(getEditField());" />
+
+#
+#---------[ 16. FI EasyBBCode mode Installed ]-----------------------------
+#
+
+#
+#---------[ 17. SAVE/UPLOAD ]-------------------------------------------------
 #
