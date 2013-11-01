@@ -36,8 +36,6 @@
 #---------[ 1. UPLOAD ]-------------------------------------------------------
 #
 
-install_mod.php to /
-
 files/leaflet.draw.css to include/mapbb/
 files/mapbbcode-window.html to include/mapbb/
 files/leaflet.draw.js to include/mapbb/
