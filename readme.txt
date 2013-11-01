@@ -144,7 +144,7 @@ function parse_mapbb($text)
 	$text = preg_replace_callback('#\[map](.*?)\[\/map]#', function($mc){
 		$rid = uniqid(rand(), true);
 		return '<div id="map'.$rid.'">[map]'.$mc[1].'[/map]</div><script language="javascript">'.
-		'if(mapBBcode) mapBBcode.show(\'map'.$rid.'\');</script>';},.
+		'if(mapBBcode) mapBBcode.show(\'map'.$rid.'\');</script>';},
 		$text);
 
 	return $text;
