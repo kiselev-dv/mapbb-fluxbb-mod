@@ -17,13 +17,12 @@
 ##
 ##       Affects DB:  No
 ##
-##            Notes:  This is just a template. Don't try to install it! Rows
-##                    in this header should be no longer than 78 characters
-##                    wide. Edit this file and save it as readme.txt. Include
-##                    the file in the archive of your mod. The mod disclaimer
-##                    below this paragraph must be left intact. This space
-##                    would otherwise be a good space to brag about your mad
-##                    modding skills :)
+##            Notes:  Install and try to add post with folowing bbcode
+##                    [map]59.9342,30.3367(S); 59.4366,24.7529(F); 
+##		      59.377,28.204(Border control); 59.934,30.337 
+##                    59.718,30.037 59.39,28.532 59.372,27.444 59.428,26.807 
+##                    59.367,26.433 59.469,26.016 59.437,24.753[/map]
+##                    Enjoy.
 ##
 ##       DISCLAIMER:  Please note that "mods" are not officially supported by
 ##                    FluxBB. Installation of this modification is done at 
