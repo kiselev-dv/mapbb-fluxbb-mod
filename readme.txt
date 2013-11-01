@@ -4,7 +4,7 @@
 ##
 ##      Mod version:  1.0
 ##  Works on FluxBB:  1.4, 1.4-rc3
-##     Release date:  YYYY-MM-DD
+##     Release date:  2013-11-01
 ##      Review date:  YYYY-MM-DD (Leave unedited)
 ##           Author:  Your name (dmitry.v.kiselev@gmail.com)
 ##
