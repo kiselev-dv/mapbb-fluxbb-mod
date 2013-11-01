@@ -2,8 +2,8 @@
 ##
 ##        Mod title:  MapBB Code Mod
 ##
-##      Mod version:  1.1
-##  Works on FluxBB:  1.4, 1.4-rc3
+##      Mod version:  1.1.1
+##  Works on FluxBB:  1.4
 ##     Release date:  2013-11-01
 ##      Review date:  YYYY-MM-DD (Leave unedited)
 ##           Author:  Your name (dmitry.v.kiselev@gmail.com)
