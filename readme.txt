@@ -41,10 +41,8 @@ files/mapbbcode-window.html to include/mapbb/
 files/leaflet.draw.js to include/mapbb/
 files/mapbbcode-config.js to include/mapbb/
 files/leaflet.ie.css to include/mapbb/
-files/mapbbcode-config-src.js to include/mapbb/
 files/leaflet.js to include/mapbb/
 files/mapbbcode.js to include/mapbb/
-files/mapbbcode-src.js to include/mapbb/
 files/leaflet.draw.ie.css to include/mapbb/
 files/Bing.js to include/mapbb/
 files/leaflet.css to include/mapbb/
